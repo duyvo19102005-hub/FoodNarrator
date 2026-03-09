@@ -1,0 +1,11 @@
+# C# and Node.js .gitignore
+# C# ignores
+[D].suo
+*.sln.docstates
+*.userprefs
+*.csproj.user
+
+# Node.js ignores
+node_modules/
+ npm-debug.log
+ .env
