@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["dotnet-sdk_8"]
+
+[phases.build]
+cmds = ["dotnet publish food_market_narrator_api -c Release -o out"]
+
+[start]
+cmd = "dotnet out/food_market_narrator_api.dll"
